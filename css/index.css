@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav-bar-item{
+    margin-right: 18px;
+}
+
+#navbar-sign-in-button{
+    width: 96px;
+    min-width: 80px;
+    height: 36px;
+}
+
+#navbar-icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#navbar-icon-link:hover{
+    background-color: #e9ecef;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#navbar-icon{
+    width: 20px;
+    height: 20px;
+    opacity: 80%;
+}
+
+.navbar-link-item{
+    color: black;
+}
+
+.navbar-link-item:link {
+    text-decoration: none;
+}
+
+.navbar-link-item:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#search-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+#search-microphone img{
+    width: 22px;
+    height: 22px;
+}

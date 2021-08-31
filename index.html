@@ -2,28 +2,36 @@
     <head>
         <title>Google</title>
         <meta charset="UTF-8">
+        <meta name="referrer" content="strict-origin" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
         <nav class="navbar navbar-light">
-            <a href="./index.html">Gmail</a>
-            <a href="./index.html">Image</a>
-            <button>Dropdown menu</button>
-            <button class="btn-primary">Sign in</button>
+            <a class="nav-bar-item navbar-link-item" href="./index.html">Gmail</a>
+            <a class="nav-bar-item navbar-link-item" href="./index.html">Image</a>
+            <a class="nav-bar-item" id ="navbar-icon-link">
+                <img id="navbar-icon" src="./images/appsIcon.png">
+            </a>
+            <button class="btn btn-primary nav-bar-item" id="navbar-sign-in-button">Sign in</button>
         </nav>
         
         <img src="./images/googleLogo.png">
 
         <div id="search-section">
             <div id="search-bar">
-                <div id="search-icon"></div>
+                <div id="search-icon">
+                    <img src="./images/googleMagGlass.png" sizes="20x20"></img>
+                </div>
 
                 <div id="search-text">
                     <input type="text">
                 </div>
 
-                <div id="search-microphone"></div>
+                <div id="search-microphone">
+                    <img src="./images/googleMic.png"></img>
+                </div>
             </div>
 
             <div id="search-buttons">
@@ -43,6 +51,7 @@
             <div id="location-div">
                 Romania
             </div>
+
             <div id="footer-links">
                 <div id="left-footer-links">
                     <a href="./index.html">About</a>
@@ -50,6 +59,7 @@
                     <a href="./index.html">Business</a>
                     <a href="./index.html">How search works</a>
                 </div>
+
                 <div id="right-footer-links">
                     <a href="./index.html">Privacy</a>
                     <a href="./index.html">Terms</a>
