@@ -158,6 +158,19 @@ input:focus{
     box-shadow: 1px 1px 1px lightgray, 1px 3px 3px lightgray
 }
 
+.search-footer{
+    margin-top: 1rem;
+}
+.search-footer a{
+    margin-left: 0.5rem;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.search-footer a:hover{
+    text-decoration: underline;
+}
+
 #google-footer{
     color: #70757a;
     background-color: rgb(242, 242, 242);
