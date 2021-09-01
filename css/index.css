@@ -62,6 +62,30 @@
     height: 100%;
 }
 
+.search-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    
+    height: 44px;
+    min-width: 482px;
+    max-width: 584px;
+    width: inherit;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 #search-icon img{
     width: 20px;
     height: 20px;
