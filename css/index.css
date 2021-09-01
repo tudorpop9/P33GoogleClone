@@ -68,6 +68,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .search-bar{
@@ -81,19 +84,56 @@
     min-width: 482px;
     max-width: 584px;
     width: inherit;
-    
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
+    margin: 2rem;
+}
+
+.search-bar:hover{
+    box-shadow: 0 0 0 lightgray, 0 3px 3px lightgray
+}
+
+.search-bar-items{
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #search-icon img{
     width: 20px;
     height: 20px;
+    opacity: 80%;
+}
+
+#search-icon{
+    padding-left: 1rem;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.search-text{
+    width: inherit;
+}
+
+.search-text-input{
+    width: 100%;
+    border-width:0px;
+    border:none;
+}
+
+input:focus{
+    outline: none;
 }
 
 #search-microphone img{
-    width: 22px;
-    height: 22px;
+    width: 12px;
+    height: 20px;
+}
+
+#search-microphone{
+    padding-left: 10px;
+    padding-right: 1rem;
+    cursor: pointer;
 }
 
 #google-footer{
