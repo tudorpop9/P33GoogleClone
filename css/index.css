@@ -76,3 +76,31 @@
     color: #70757a;
     background-color: rgb(242, 242, 242);;
 }
+
+#left-footer-links a{
+    color: #70757a;
+}
+
+#left-footer-links a:link{
+    text-decoration: none;
+}
+
+#left-footer-links a:hover{
+    text-decoration: none;
+    color: #70757a;
+    text-decoration: underline;
+}
+
+#right-footer-links a{
+    color: #70757a;
+}
+
+#right-footer-links a:link{
+    text-decoration: none;
+}
+
+#right-footer-links a:hover{
+    text-decoration: none;
+    color: #70757a;
+    text-decoration: underline;
+}
