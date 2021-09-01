@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/index.css">
     </head>
-    <body>
+    <body id="page-content">
         <nav class="navbar navbar-light">
             <a class="nav-bar-item navbar-link-item" href="./index.html">Gmail</a>
             <a class="nav-bar-item navbar-link-item" href="./index.html">Image</a>
@@ -17,37 +17,40 @@
             <button class="btn btn-primary nav-bar-item" id="navbar-sign-in-button">Sign in</button>
         </nav>
         
-        <img src="./images/googleLogo.png">
+        <div class="main-content">
+            <img src="./images/googleLogo.png">
 
-        <div id="search-section">
-            <div id="search-bar">
-                <div id="search-icon">
-                    <img src="./images/googleMagGlass.png" sizes="20x20"></img>
+            <div id="search-section">
+                <div id="search-bar">
+                    <div id="search-icon">
+                        <img src="./images/googleMagGlass.png" sizes="20x20"></img>
+                    </div>
+    
+                    <div id="search-text">
+                        <input type="text">
+                    </div>
+    
+                    <div id="search-microphone">
+                        <img src="./images/googleMic.png"></img>
+                    </div>
                 </div>
-
-                <div id="search-text">
-                    <input type="text">
+    
+                <div id="search-buttons">
+                    <button>Google Search</button>
+                    <button>I'm Feeling Lucky</button>
                 </div>
-
-                <div id="search-microphone">
-                    <img src="./images/googleMic.png"></img>
+    
+                <div id="search-footer">
+                    Google offered in:
+                    <a href="./index.html">Română</a>
+                    <a href="./index.html">magyar</a>
+                    <a href="./index.html">Deutsch</a>
                 </div>
-            </div>
-
-            <div id="search-buttons">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </div>
-
-            <div id="search-footer">
-                Google offered in:
-                <a href="./index.html">Română</a>
-                <a href="./index.html">magyar</a>
-                <a href="./index.html">Deutsch</a>
             </div>
         </div>
+        
 
-        <footer>
+        <footer id="google-footer">
             <div id="location-div">
                 Romania
             </div>

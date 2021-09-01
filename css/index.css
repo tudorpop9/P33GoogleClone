@@ -62,3 +62,17 @@
     width: 22px;
     height: 22px;
 }
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: visible;
+    height: 100%;
+}
+
+#google-footer{
+    color: #70757a;
+    background-color: rgb(242, 242, 242);;
+}
