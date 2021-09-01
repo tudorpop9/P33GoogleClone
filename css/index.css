@@ -1,7 +1,14 @@
+.page-content{
+    height: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .navbar{
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .nav-bar-item{
@@ -58,8 +65,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: visible;
-    height: 100%;
+    margin-top: auto;
 }
 
 .search-section{
@@ -136,9 +142,26 @@ input:focus{
     cursor: pointer;
 }
 
+.search-buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    
+    border-radius: 4px;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 0 4px;
+}
+
+.search-buttons button:hover{
+    box-shadow: 1px 1px 1px lightgray, 1px 3px 3px lightgray
+}
+
 #google-footer{
     color: #70757a;
-    background-color: rgb(242, 242, 242);;
+    background-color: rgb(242, 242, 242);
+    margin-top: auto;
 }
 
 .location-div{
